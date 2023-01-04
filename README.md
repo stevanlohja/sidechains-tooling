@@ -38,7 +38,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About
-This project contains helpful tools to help Cardano sidechain builders.
+This project contains helpful tools for Cardano sidechain builders.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
