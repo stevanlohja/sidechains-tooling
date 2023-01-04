@@ -21,7 +21,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<!-- Use markdown all-in one vs code extension to automate TOC generation. No need to manually update it. -->
+<!-- Use markdown all-in one vs-code extension to automate table of contents generation. -->
 <details>
   <summary>Table of Contents</summary>
   
@@ -36,12 +36,9 @@
 
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project contains tooling to assist sidechain builders.
-
+This project contains helpful tools to help sidechain builders.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,10 +53,20 @@ This project contains tooling to assist sidechain builders.
 
 ### Installation
 
+Download the binary for `mamba-cli` and `sidechain-cli` on the page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+```shell
+./mamba-cli <subcommand> <arguments...>
+```
+
+```shell
+./sidechain-cli <subcommand> <arguments...>
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
