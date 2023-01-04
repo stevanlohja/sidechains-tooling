@@ -1,4 +1,6 @@
-# Usage 
+# Sidechain CLI Reference
+
+## Usage 
 
 ```
 ./sidechain-cli <subcommand> <arguments...>
@@ -92,9 +94,9 @@ Example:
 
 ### `pending-txs`
 
-```
 Description: Displays pending and queued transactions from mainchain to sidechain
 
+```
 ./sidechain-cli pending-txs
   --mamba-url <SC_RPC_URL> \
   --recipient <SC_ADDRESS>

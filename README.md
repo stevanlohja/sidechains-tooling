@@ -25,11 +25,11 @@
 <details>
   <summary>Table of Contents</summary>
   
-- [About The Project](#about-the-project)
+- [About](#about)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+  - [Reference](#reference)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -37,23 +37,23 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-This project contains helpful tools to help sidechain builders.
+## About
+This project contains helpful tools to help Cardano sidechain builders.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Prerequisites
+The project hosts CLI tooling to assist sidechain builders with common tasks. If you're new to Cardano sidechains, then go ahead and visit the documentation linked above to learn more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
-Download the binary for `mamba-cli` and `sidechain-cli` on the page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
+1. Download the binary for `mamba-cli` and `sidechain-cli` on the *releases* page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
+
+2. Add binaries to your shell's path for greater convenience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,25 +68,29 @@ Download the binary for `mamba-cli` and `sidechain-cli` on the page [>>>](https:
 ./sidechain-cli <subcommand> <arguments...>
 ```
 
+### Reference
+
+`sidechain-cli` reference guide [>>>](SC_CLI_Reference.md) 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. See `CONTRIBUTING.md` for more information.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the Apache 2.0 License. See `LICENSE.md` for more information.
+Distributed under the Apache 2.0 License. See [LICENSE.md](LICENSE.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-See **Communication channels** in `CONTRIBUTING.md`. 
+See "Communication channels" in [CONTRIBUTING.md](CONTRIBUTING.md). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
