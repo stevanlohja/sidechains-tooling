@@ -71,6 +71,7 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 ### Reference
 
 `sidechain-cli` reference guide [>>>](SC_CLI_Reference.md) 
+`mamba-cli` reference guide [>>>](Mamba_CLI_Reference.md) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
