@@ -51,7 +51,7 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 
 ### Installation
 
-1. Download the binary for `mamba-cli` and `sidechain-cli` on the *releases* page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
+1. Download the binary for `sc-evm-cli` and `sidechain-cli` on the *releases* page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
 
 2. Add binaries to your shell's path for greater convenience.
 
@@ -61,7 +61,7 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 ## Usage
 
 ```shell
-./mamba-cli <subcommand> <arguments...>
+./sc-evm-cli <subcommand> <arguments...>
 ```
 
 ```shell
@@ -70,7 +70,7 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 
 ### Reference
 
-`mamba-cli` reference guide [>>>](Mamba_CLI_Reference.md) 
+`sc-evm-cli` reference guide [>>>](SC_EVM_CLI_Reference.md) 
 
 `sidechain-cli` reference guide [>>>](SC_CLI_Reference.md)
 
