@@ -20,7 +20,7 @@ Display help for a specific subcommand:
 
 ## Commands
 
-### `black2b`
+### `blake2b`
 
 Description: Compute `blake2b` hash. `Length` option may be `28` or `32` (default `28`)
 
