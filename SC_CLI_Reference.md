@@ -28,7 +28,7 @@ Example:
 
 ### `burn-fuel`
 
-Description: Send FUEL tokens from mainchain to sidechain recipient address.
+Description: Send SC_Token tokens from mainchain to sidechain recipient address.
 
 ```
 ./sidechain-cli burn-fuel
@@ -72,7 +72,7 @@ Example:
 
 ### `claim-fuel`
 
-Description: Claim fuel tokens that have been sent from sidechain to mainchain using obtained merkle proof.
+Description: Claim SC_Token tokens that have been sent from sidechain to mainchain using obtained merkle proof.
 
 ```
 ./sidechain-cli claim-fuel
