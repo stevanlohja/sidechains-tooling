@@ -51,9 +51,12 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 
 ### Installation
 
-1. Download the binary for `sc-evm-cli` and `sidechain-cli` on the *releases* page [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
+1. Download the packaged binaries for `sc-evm-cli`, `sidechain-cli` and `trustless-sidechain-cli` on the *releases* page
+   [>>>](https://github.com/input-output-hk/sidechains-tooling/releases)
 
-2. Add binaries to your shell's path for greater convenience.
+2. Extract the packages using your preferred `tar` and `zip` utility.
+
+3. Add binaries to your shell's path for greater convenience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,11 +71,17 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 ./sidechain-cli <subcommand> <arguments...>
 ```
 
+```shell
+node <trustless-sidechain-ctl-directory>/main.js <subcommand> <arguments>
+```
+
 ### Reference
 
 `sc-evm-cli` reference guide [>>>](SC_EVM_CLI_Reference.md) 
 
 `sidechain-cli` reference guide [>>>](SC_CLI_Reference.md)
+
+`trustless-sidechain-cli` reference guide [>>>](Trustless_Sidechain_CTL_Reference.md) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
