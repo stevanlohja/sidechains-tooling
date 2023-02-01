@@ -74,6 +74,14 @@ The project hosts CLI tooling to assist sidechain builders with common tasks. If
 ```shell
 node <trustless-sidechain-ctl-directory>/main.js <subcommand> <arguments>
 ```
+## Note for macOS users
+When you execute a command for the first time, you will get a warning pop-up complaining that the ABI cannot be executed because the developer cannot be verified.  
+The workaround is this:
+1. Press cancel on the pop-up
+2. Stop the CLI process with command-C
+2. Go to System settings → Privacy & Security tab to allow the app
+3. Click Allow anyway
+4. Repeat for one more library.
 
 ### Reference
 
