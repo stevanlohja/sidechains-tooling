@@ -1,8 +1,8 @@
 # Sidechain EVM CLI Reference
 
-## Usage 
+## Usage
 
-```
+```shell
 ./sc-evm-cli <subcommand> <arguments...>
 ```
 
