@@ -5,7 +5,12 @@
 ```
 ./sidechain-cli <subcommand> <arguments...>
 ```
-
+## Prequisites
+It is assumed that you have access to:
+- a shell of your choice
+- [Java](http://www.java.com/getjava/) 14.20+ installed locally 
+- [Node.js](https://nodejs.org/en/download/) V10 or later
+- [Python](https://www.python.org/downloads/) V3.5 or later
 ## Commands
 
 ### `request-funds`

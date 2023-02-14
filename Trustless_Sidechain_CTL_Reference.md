@@ -10,7 +10,7 @@ Trustless Sidechain CTL should run on any modern OS and hardware combination cap
 It is assumed that you have access to:
 - a shell of your choice
 - NodeJS 14.20+ installed locally
-- Python 3.10+ installed locally
+
 
 In order to run Trustless Sidechain CTL you also need to set up the runtime dependencies:
 
