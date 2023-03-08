@@ -3,7 +3,7 @@
 ## Hardware and OS Requirements
 Trustless Sidechain CTL should run on any modern OS and hardware combination capable of running a Node installation:
 - Linux
-- MacOS
+- macOS
 - Windows 10+
 
 ## Prerequisites
@@ -21,15 +21,15 @@ In order to run Trustless Sidechain CTL you also need to set up the runtime depe
 
 
 ## Running
-Extracting the distributed package produces the script `main.js` with its dependencies in `node_modules`.
+Extracting the distributed package produces the script `trustless-sidechain-ctl` with its dependencies in `node_modules`.
 It can be run from the same directory as:
 ```shell
-node main.js <command> <options>
+./trustless-sidechain-ctl <command> <options>
 ```
 
 for help:
 ```shell
-node main.js --help
+./trustless-sidechain-ctl --help
 ```
 
 To make multiple invocations easier, it may be desirable to export the path to your signing key: 
@@ -93,19 +93,19 @@ Script addresses depend on the sidechain parameters, so we get different address
 To get the script addresses for a given sidechain, you can use the following command:
 
 ```shell
-node main.js -- addresses 
+./trustless-sidechain-ctl -- addresses 
 ```
 
 ### Burn user owned SC_Token tokens
 
 ```shell
-node main.js -- burn --amount 5 --recipient df7d7e053933b5cc24372f878c90e62dadad5d42
+./trustless-sidechain-ctl -- burn --amount 5 --recipient df7d7e053933b5cc24372f878c90e62dadad5d42
 ```
 
 ### Claim SC_Token
 
 ```shell
-node main.js claim --payment-signing-key-file test.skey --combined-proof d8799fd8799f0002581d606e9d4f6a3f900f7b510b27f29d8e79c550686ce093946b23b3d1828ed87a80ff80ff
+./trustless-sidechain-ctl claim --payment-signing-key-file test.skey --combined-proof d8799fd8799f0002581d606e9d4f6a3f900f7b510b27f29d8e79c550686ce093946b23b3d1828ed87a80ff80ff
 ```
 
 Expected output:
@@ -142,10 +142,10 @@ Example response:
 }
 ```
 
-And use it's output for the registration:
+And use its output for the registration:
 
 ```shell
-node main.js -- register \
+./trustless-sidechain-ctl -- register \
   --spo-public-key f71ff66b6b8da0702444183b5ce5de09f6754457a6a71b3354b81ced8dcd7e30 \
   --sidechain-public-key 03eef26d3cf978e0fc2d786c443b1284b27b265a7c82eeeec68c24cd3fd0bb6428 \
   --spo-signature 980db1db31457189326e948c7f292b16278ab91bd45f5fd6ee9ad637bf993f26936c17ee126e510c52d0a3381b52acb36a2a89d4fe55a587cf3478678114dd0f \
@@ -156,7 +156,7 @@ node main.js -- register \
 ### Deregister committee candidate
 
 ```shell
-node main.js -- deregister \
+./trustless-sidechain-ctl -- deregister \
   --payment-signing-key-file $SIGNING_KEY \
   --spo-public-key aabbcc
 ```
@@ -164,7 +164,7 @@ node main.js -- deregister \
 ### Committee hash update
 
 ```shell
-node main.js -- committee-hash \
+./trustless-sidechain-ctl -- committee-hash \
   --committee-pub-key-and-signature aabbcc01:aaaaaa \
   --committee-pub-key-and-signature aabbcc02 \
   --committee-pub-key-and-signature aabbcc03:bbbbbb \
@@ -183,7 +183,7 @@ a signature.
 ### Save merkle root
 
 ```shell
-node main.js -- save-root \
+./trustless-sidechain-ctl -- save-root \
   --merkle-root abababab \
   --committee-pub-key-and-signature aabbcc01:aaaaaa \
   --committee-pub-key-and-signature aabbcc02 \
@@ -195,7 +195,7 @@ node main.js -- save-root \
 ### Committee handover
 
 ```shell
-node main.js -- committee-handover \
+./trustless-sidechain-ctl -- committee-handover \
   --merkle-root abababab \
   --sidechain-epoch 6 \
   --previous-merkle-root abcdef \
