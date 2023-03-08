@@ -5,6 +5,11 @@
 ```
 ./sidechain-cli <subcommand> <arguments...>
 ```
+## Prequisites
+It is assumed that you have access to:
+- a shell of your choice
+- [Java](http://www.java.com/getjava/) 14.20+ installed locally 
+- [Node.js](https://nodejs.org/en/download/) LTS
 
 ## Commands
 
